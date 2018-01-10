@@ -1,0 +1,125 @@
+body{
+	background-color: #F9A12D;
+}
+
+
+  @keyframes float {
+ 0% {
+ margin-top:15%;
+ }
+ 
+ 50% {
+ margin-top:16%;
+ }
+ 
+ 100% {
+ margin-top:15%;
+ }
+ }
+
+ h3{
+ 	font-family:sans-serif;
+ 	font-size:11.5px;
+ 	top:-55%;
+ 	animation-name:fade-in;
+ 	 animation-duration:1s;
+ }
+
+ li{
+
+ 	font-family:sans-serif;
+ 	font-size: 10px;
+ 	animation-name:fade-in;
+ 	animation-duration:1s;
+ 	outline:none;
+ }
+
+ ul{
+
+ 	top:0px;
+ 	left:0px;
+ 	padding:0;
+ 	margin:0;
+ }
+
+#dragon{
+
+	width:200px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10%;
+	animation-name:fade-in;
+ 	animation-duration:4s;
+	z-index:-1;
+}
+
+#ask-button{
+
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background:none;
+	border:0;
+	width:100px;
+	padding-top:5%;
+	animation-name:fade-in;
+ 	 animation-duration:8s;
+ 	 outline:none;
+}
+
+#question{	
+	background:none;
+	width:350px;
+	height:30px;
+	font-size:14px;
+	border:2px solid black;
+	animation-name:fade-in;
+ 	animation-duration:6s;
+ 	outline:none;
+}
+
+#div_center{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:2%;;
+}
+
+/*#dragon_float{
+
+	animation-name:float;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
+}
+*/
+
+ @keyframes fade-in{
+ 0%{
+ opacity:0;
+ }
+ 
+ 50%{
+ opacity:0;
+ }
+ 
+ 100%{
+ opacity:100;
+ }
+ }
+
+ ::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
